@@ -2,6 +2,7 @@
 
 A Model Context Protocol (MCP) server that enables AI models to interact with Lightning Network, allowing them to pay invoices.
 
+[![smithery badge](https://smithery.ai/badge/@AbdelStark/lightning-mcp)](https://smithery.ai/server/@AbdelStark/lightning-mcp)
 [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![MCP](https://img.shields.io/badge/MCP-Protocol-blue?style=flat-square)](https://github.com/modelcontextprotocol/typescript-sdk)
 [![Lightning Network](https://img.shields.io/badge/Lightning-Network-orange?style=flat-square)](https://lightning.network/)
@@ -21,6 +22,16 @@ A Model Context Protocol (MCP) server that enables AI models to interact with Li
 - Node.js 18+
 
 ## 🛠️ Installation
+
+### Installing via Smithery
+
+To install Lightning Network MCP Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@AbdelStark/lightning-mcp):
+
+```bash
+npx -y @smithery/cli install @AbdelStark/lightning-mcp --client claude
+```
+
+### Manual Installation
 
 1. Clone the repository:
 
